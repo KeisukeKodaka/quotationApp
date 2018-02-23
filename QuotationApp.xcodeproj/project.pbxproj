@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC24A706203D4BD0006F01C0 /* money.csv in Resources */ = {isa = PBXBuildFile; fileRef = CC24A705203D4BD0006F01C0 /* money.csv */; };
+		CC24A708203D4BE3006F01C0 /* work.csv in Resources */ = {isa = PBXBuildFile; fileRef = CC24A707203D4BE3006F01C0 /* work.csv */; };
 		CC8AD59C20390085009AFB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AD59B20390085009AFB9A /* AppDelegate.swift */; };
 		CC8AD59E20390085009AFB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AD59D20390085009AFB9A /* ViewController.swift */; };
 		CC8AD5A120390085009AFB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8AD59F20390085009AFB9A /* Main.storyboard */; };
 		CC8AD5A320390085009AFB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8AD5A220390085009AFB9A /* Assets.xcassets */; };
 		CC8AD5A620390085009AFB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8AD5A420390085009AFB9A /* LaunchScreen.storyboard */; };
+		CC8AD5AE203922C3009AFB9A /* QuotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AD5AD203922C3009AFB9A /* QuotationViewController.swift */; };
+		CCC68CB8203927D20086EB7E /* quotation.csv in Resources */ = {isa = PBXBuildFile; fileRef = CCC68CB7203927D20086EB7E /* quotation.csv */; };
+		CCC68CBA20392AE30086EB7E /* QuotationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC68CB920392AE30086EB7E /* QuotationData.swift */; };
+		CCCD0EA8203BFC00005D1BB2 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD0EA7203BFBFF005D1BB2 /* MoneyViewController.swift */; };
+		CCCD0EAA203BFDBE005D1BB2 /* QuotationMoneyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD0EA9203BFDBE005D1BB2 /* QuotationMoneyData.swift */; };
+		CCCD0EAC203BFF47005D1BB2 /* QutationWorkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD0EAB203BFF47005D1BB2 /* QutationWorkData.swift */; };
+		CCCD0EAE203BFFC9005D1BB2 /* WorkView.Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCD0EAD203BFFC9005D1BB2 /* WorkView.Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC24A705203D4BD0006F01C0 /* money.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = money.csv; sourceTree = "<group>"; };
+		CC24A707203D4BE3006F01C0 /* work.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = work.csv; sourceTree = "<group>"; };
 		CC8AD59820390085009AFB9A /* QuotationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8AD59B20390085009AFB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC8AD59D20390085009AFB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		CC8AD5A220390085009AFB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8AD5A520390085009AFB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8AD5A720390085009AFB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8AD5AD203922C3009AFB9A /* QuotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationViewController.swift; sourceTree = "<group>"; };
+		CCC68CB7203927D20086EB7E /* quotation.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quotation.csv; sourceTree = "<group>"; };
+		CCC68CB920392AE30086EB7E /* QuotationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationData.swift; sourceTree = "<group>"; };
+		CCCD0EA7203BFBFF005D1BB2 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		CCCD0EA9203BFDBE005D1BB2 /* QuotationMoneyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationMoneyData.swift; sourceTree = "<group>"; };
+		CCCD0EAB203BFF47005D1BB2 /* QutationWorkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QutationWorkData.swift; sourceTree = "<group>"; };
+		CCCD0EAD203BFFC9005D1BB2 /* WorkView.Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkView.Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +73,17 @@
 			isa = PBXGroup;
 			children = (
 				CC8AD59B20390085009AFB9A /* AppDelegate.swift */,
-				CC8AD59D20390085009AFB9A /* ViewController.swift */,
 				CC8AD59F20390085009AFB9A /* Main.storyboard */,
+				CC8AD59D20390085009AFB9A /* ViewController.swift */,
+				CC8AD5AD203922C3009AFB9A /* QuotationViewController.swift */,
+				CCCD0EA7203BFBFF005D1BB2 /* MoneyViewController.swift */,
+				CCCD0EAD203BFFC9005D1BB2 /* WorkView.Controller.swift */,
+				CCC68CB920392AE30086EB7E /* QuotationData.swift */,
+				CCCD0EA9203BFDBE005D1BB2 /* QuotationMoneyData.swift */,
+				CCCD0EAB203BFF47005D1BB2 /* QutationWorkData.swift */,
+				CCC68CB7203927D20086EB7E /* quotation.csv */,
+				CC24A705203D4BD0006F01C0 /* money.csv */,
+				CC24A707203D4BE3006F01C0 /* work.csv */,
 				CC8AD5A220390085009AFB9A /* Assets.xcassets */,
 				CC8AD5A420390085009AFB9A /* LaunchScreen.storyboard */,
 				CC8AD5A720390085009AFB9A /* Info.plist */,
@@ -123,9 +150,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC24A706203D4BD0006F01C0 /* money.csv in Resources */,
 				CC8AD5A620390085009AFB9A /* LaunchScreen.storyboard in Resources */,
 				CC8AD5A320390085009AFB9A /* Assets.xcassets in Resources */,
 				CC8AD5A120390085009AFB9A /* Main.storyboard in Resources */,
+				CCC68CB8203927D20086EB7E /* quotation.csv in Resources */,
+				CC24A708203D4BE3006F01C0 /* work.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC68CBA20392AE30086EB7E /* QuotationData.swift in Sources */,
+				CCCD0EAA203BFDBE005D1BB2 /* QuotationMoneyData.swift in Sources */,
+				CC8AD5AE203922C3009AFB9A /* QuotationViewController.swift in Sources */,
 				CC8AD59E20390085009AFB9A /* ViewController.swift in Sources */,
+				CCCD0EAE203BFFC9005D1BB2 /* WorkView.Controller.swift in Sources */,
+				CCCD0EA8203BFC00005D1BB2 /* MoneyViewController.swift in Sources */,
 				CC8AD59C20390085009AFB9A /* AppDelegate.swift in Sources */,
+				CCCD0EAC203BFF47005D1BB2 /* QutationWorkData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +310,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AU6P3CW89U;
 				INFOPLIST_FILE = QuotationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.keisukekodaka1122.QuotationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +327,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AU6P3CW89U;
 				INFOPLIST_FILE = QuotationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.keisukekodaka1122.QuotationApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
